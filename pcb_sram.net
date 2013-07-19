@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  2013-07-15T19:51:24 CEST
+# EESchema Netlist Version 1.1 created  2013-07-20T00:15:29 CEST
 (
  ( /51E028F5 SM0805 C1 2.2u
   ( 1 +5V )
@@ -8,75 +8,75 @@
   ( 1 +3.3V )
   ( 2 GND )
  )
- ( /51E29A90 SM0603_Capa C3 22p
+ ( /51E29A90 SM0805 C3 22p
   ( 1 /osc_in )
   ( 2 GND )
  )
- ( /51E0323E SM0603_Capa C4 100n
+ ( /51E0323E SM0805 C4 100n
   ( 1 +3.3V )
   ( 2 GND )
  )
- ( /51E032F5 SM0603_Capa C5 100n
+ ( /51E032F5 SM0805 C5 100n
   ( 1 +3.3V )
   ( 2 GND )
  )
- ( /51E03319 SM0603_Capa C6 100n
+ ( /51E03319 SM0805 C6 100n
   ( 1 +3.3V )
   ( 2 GND )
  )
- ( /51E03368 SM0603_Capa C7 100n
+ ( /51E03368 SM0805 C7 100n
   ( 1 +3.3V )
   ( 2 GND )
  )
- ( /51E0354F SM0603_Capa C8 100n
+ ( /51E0354F SM0805 C8 100n
   ( 1 GND )
   ( 2 +3.3V )
  )
- ( /51E0354E SM0603_Capa C9 100n
+ ( /51E0354E SM0805 C9 100n
   ( 1 GND )
   ( 2 +3.3V )
  )
- ( /51E0354C SM0603_Capa C10 100n
+ ( /51E0354C SM0805 C10 100n
   ( 1 GND )
   ( 2 +3.3V )
  )
- ( /51E0354D SM0603_Capa C11 100n
+ ( /51E0354D SM0805 C11 100n
   ( 1 GND )
   ( 2 +3.3V )
  )
- ( /51E0350B SM0603_Capa C12 100n
+ ( /51E0350B SM0805 C12 100n
   ( 1 GND )
   ( 2 +3.3V )
  )
- ( /51E0352E SM0603_Capa C13 100n
+ ( /51E0352E SM0805 C13 100n
   ( 1 GND )
   ( 2 +3.3V )
  )
- ( /51E03543 SM0603_Capa C14 100n
+ ( /51E03543 SM0805 C14 100n
   ( 1 GND )
   ( 2 +3.3V )
  )
- ( /51E03542 SM0603_Capa C15 100n
+ ( /51E03542 SM0805 C15 100n
   ( 1 GND )
   ( 2 +3.3V )
  )
- ( /51E03558 SM0603_Capa C16 100n
+ ( /51E03558 SM0805 C16 100n
   ( 1 GND )
   ( 2 +3.3V )
  )
- ( /51E03559 SM0603_Capa C17 100n
+ ( /51E03559 SM0805 C17 100n
   ( 1 GND )
   ( 2 +3.3V )
  )
- ( /51E0355B SM0603_Capa C18 100n
+ ( /51E0355B SM0805 C18 100n
   ( 1 GND )
   ( 2 +3.3V )
  )
- ( /51E0355A SM0603_Capa C19 100n
+ ( /51E0355A SM0805 C19 100n
   ( 1 GND )
   ( 2 +3.3V )
  )
- ( /51E29A9A SM0603_Capa C20 22p
+ ( /51E29A9A SM0805 C20 22p
   ( 1 /osc_out )
   ( 2 GND )
  )
@@ -84,19 +84,19 @@
   ( 1 GND )
   ( 2 +3.3V )
  )
- ( /51E31FCA SM0603_Capa C22 100n
+ ( /51E31FCA SM0805 C22 100n
   ( 1 +3.3V )
   ( 2 GND )
  )
  ( /51E2F4D7 SM0805 C23 2.2u
-  ( 1 N-000048 )
+  ( 1 N-000102 )
   ( 2 GND )
  )
  ( /51E2F4CE SM0805 C24 2.2u
-  ( 1 N-000104 )
+  ( 1 N-000084 )
   ( 2 GND )
  )
- ( /51E32464 SM0603_Capa C25 100n
+ ( /51E32464 SM0805 C25 100n
   ( 1 /3V3_adc )
   ( 2 GND )
  )
@@ -104,7 +104,7 @@
   ( 1 /3V3_adc )
   ( 2 GND )
  )
- ( /51E323F3 SM0603_Capa C27 100n
+ ( /51E323F3 SM0805 C27 100n
   ( 1 /3V3_adc )
   ( 2 GND )
  )
@@ -112,12 +112,20 @@
   ( 1 /3V3_adc )
   ( 2 GND )
  )
- ( /51E39DB5 SM0603_Capa C29 100n
+ ( /51E39DB5 SM0805 C29 100n
   ( 1 /nrst )
   ( 2 GND )
  )
- ( /51E3B168 SM0603_Capa C30 100n
+ ( /51E9B00E SM0805 C30 100n
   ( 1 +3.3V )
+  ( 2 GND )
+ )
+ ( /51E9B65E LED-0805 D1 SML-211UTT86
+  ( 1 N-000131 )
+  ( 2 GND )
+ )
+ ( /51E9B667 LED-0805 D2 SML-211YTT86
+  ( 1 N-000101 )
   ( 2 GND )
  )
  ( /51E1C369 SIL-3 JP1 JUMPER3
@@ -127,7 +135,7 @@
  )
  ( /51E1C15D SM0603 L1 30@100MHz
   ( 1 GND )
-  ( 2 N-000122 )
+  ( 2 N-000053 )
  )
  ( /51E3A64F SM0603 L2 22@100MHz
   ( 1 +3.3V )
@@ -182,7 +190,7 @@
   ( 12 /sd_d3 )
   ( 13 /sd_clk )
   ( 14 /sd_cd )
-  ( 15 /pc14 )
+  ( 15 /sd_wp )
   ( 16 /pc15 )
   ( 17 /sram_d2 )
   ( 18 /sram_d3 )
@@ -251,7 +259,7 @@
   ( 13 /sram4_ce )
   ( 14 /pg13 )
   ( 15 /pg14 )
-  ( 16 /pg15 )
+  ( 16 /user_led )
   ( 17 GND )
   ( 18 GND )
   ( 19 +3.3V )
@@ -280,20 +288,29 @@
   ( 3 /usb_dp )
   ( 4 /usb_id )
   ( 5 GND )
-  ( 6 N-000122 )
+  ( 6 N-000053 )
  )
- ( /51E1B9A5 SD_502774 P8 MICRO-SD
-  ( 1 /sd_d2 )
-  ( 2 /sd_d3 )
-  ( 3 /sd_cmd )
+ ( /51E9AE92 SD_CARD_10100 P8 SD_CARD
+  ( 1 /sd_d3 )
+  ( 2 /sd_cmd )
+  ( 3 GND )
   ( 4 +3.3V )
   ( 5 /sd_clk )
   ( 6 GND )
   ( 7 /sd_d0 )
   ( 8 /sd_d1 )
-  ( 9 GND )
+  ( 9 /sd_d2 )
   ( 10 /sd_cd )
-  ( 11 ? )
+  ( 11 /sd_wp )
+  ( 12 ? )
+ )
+ ( /51E9B6BD SM0805 R1 1k
+  ( 1 +3.3V )
+  ( 2 N-000131 )
+ )
+ ( /51E9B6C3 SM0805 R2 1k
+  ( 1 /user_led )
+  ( 2 N-000101 )
  )
  ( /51D12604 LQFP144 U1 STM32F40X_LQFP144
   ( 1 /pe2 )
@@ -303,7 +320,7 @@
   ( 5 /pe6 )
   ( 6 +3.3V )
   ( 7 /sd_cd )
-  ( 8 /pc14 )
+  ( 8 /sd_wp )
   ( 9 /pc15 )
   ( 10 /sram_a0 )
   ( 11 /sram_a1 )
@@ -366,7 +383,7 @@
   ( 68 /sram_d12 )
   ( 69 /pb10 )
   ( 70 /pb11 )
-  ( 71 N-000048 )
+  ( 71 N-000102 )
   ( 72 +3.3V )
   ( 73 /pb12 )
   ( 74 /pb13 )
@@ -401,7 +418,7 @@
   ( 103 /usb_dm )
   ( 104 /usb_dp )
   ( 105 /swdio )
-  ( 106 N-000104 )
+  ( 106 N-000084 )
   ( 107 GND )
   ( 108 +3.3V )
   ( 109 /swclk )
@@ -427,7 +444,7 @@
   ( 129 /pg14 )
   ( 130 GND )
   ( 131 +3.3V )
-  ( 132 /pg15 )
+  ( 132 /user_led )
   ( 133 /swo )
   ( 134 /pb4 )
   ( 135 /pb5 )
@@ -803,6 +820,24 @@ $component C30
  C?
  C1-1
 $endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
 $component P1
  DIL_2X16
 $endlist
@@ -819,7 +854,21 @@ $component P7
  10103594-0001LF
 $endlist
 $component P8
- SD_502774
+ SD_CARD_10100
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
 $endlist
 $component U1
  LQFP144
