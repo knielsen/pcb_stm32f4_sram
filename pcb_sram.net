@@ -1,515 +1,515 @@
-# EESchema Netlist Version 1.1 created  2013-07-25T13:15:11 CEST
+# EESchema Netlist Version 1.1 created  2013-07-26T17:02:05 CEST
 (
- ( /51EA62D5 SWITCH_FSMJSMA B1 SWITCH_4PIN
-  ( 1 /nrst )
-  ( 2 /nrst )
-  ( 3 GND )
-  ( 4 GND )
+ ( /51EA62D5 $noname  B1 SWITCH_4PIN {Lib=SWITCH_4PIN}
+  (    1 /nrst )
+  (    2 /nrst )
+  (    3 GND )
+  (    4 GND )
  )
- ( /51E028F5 SM0805 C1 2.2u
-  ( 1 +5V )
-  ( 2 GND )
+ ( /51E9B6C3 $noname  R2 1k {Lib=R}
+  (    1 /user_led )
+  (    2 N-000123 )
  )
- ( /51E028F7 SM0805 C2 2.2u
-  ( 1 +3.3V )
-  ( 2 GND )
+ ( /51E9B6BD $noname  R1 1k {Lib=R}
+  (    1 +3.3V )
+  (    2 N-000121 )
  )
- ( /51E29A90 SM0805 C3 22p
-  ( 1 /osc_in )
-  ( 2 GND )
+ ( /51E9B667 $noname  D2 SML-211YTT86 {Lib=LED}
+  (    1 N-000123 )
+  (    2 GND )
  )
- ( /51E0323E SM0805 C4 100n
-  ( 1 +3.3V )
-  ( 2 GND )
+ ( /51E9B65E $noname  D1 SML-211UTT86 {Lib=LED}
+  (    1 N-000121 )
+  (    2 GND )
  )
- ( /51E0354F SM0805 C8 100n
-  ( 1 GND )
-  ( 2 +3.3V )
+ ( /51E9B00E $noname  C30 100n {Lib=CSMALL}
+  (    1 +3.3V )
+  (    2 GND )
  )
- ( /51E0354E SM0805 C9 100n
-  ( 1 GND )
-  ( 2 +3.3V )
+ ( /51E9AE92 $noname  P8 SD_CARD {Lib=SD_CARD}
+  (    1 /sd_d3 )
+  (    2 /sd_cmd )
+  (    3 GND )
+  (    4 +3.3V )
+  (    5 /sd_clk )
+  (    6 GND )
+  (    7 /sd_d0 )
+  (    8 /sd_d1 )
+  (    9 /sd_d2 )
+  (   10 /sd_cd )
+  (   11 /sd_wp )
+  (   12 GND )
  )
- ( /51E0354C SM0805 C10 100n
-  ( 1 GND )
-  ( 2 +3.3V )
+ ( /51E3A64F $noname  L2 22@100MHz {Lib=INDUCTOR}
+  (    1 +3.3V )
+  (    2 /3V3_adc )
  )
- ( /51E0354D SM0805 C11 100n
-  ( 1 GND )
-  ( 2 +3.3V )
+ ( /51E39DB5 $noname  C29 100n {Lib=CSMALL}
+  (    1 /nrst )
+  (    2 GND )
  )
- ( /51E0350B SM0805 C12 100n
-  ( 1 GND )
-  ( 2 +3.3V )
+ ( /51E32464 $noname  C25 100n {Lib=CSMALL}
+  (    1 /3V3_adc )
+  (    2 GND )
  )
- ( /51E0352E SM0805 C13 100n
-  ( 1 GND )
-  ( 2 +3.3V )
+ ( /51E3245F $noname  C26 1u {Lib=CSMALL}
+  (    1 /3V3_adc )
+  (    2 GND )
  )
- ( /51E03543 SM0805 C14 100n
-  ( 1 GND )
-  ( 2 +3.3V )
+ ( /51E32404 $noname  C28 1u {Lib=CSMALL}
+  (    1 /3V3_adc )
+  (    2 GND )
  )
- ( /51E03542 SM0805 C15 100n
-  ( 1 GND )
-  ( 2 +3.3V )
+ ( /51E323F3 $noname  C27 100n {Lib=CSMALL}
+  (    1 /3V3_adc )
+  (    2 GND )
  )
- ( /51E03558 SM0805 C16 100n
-  ( 1 GND )
-  ( 2 +3.3V )
+ ( /51E31FE2 $noname  C21 4.7u {Lib=CSMALL}
+  (    1 GND )
+  (    2 +3.3V )
  )
- ( /51E03559 SM0805 C17 100n
-  ( 1 GND )
-  ( 2 +3.3V )
+ ( /51E31FCA $noname  C22 100n {Lib=CSMALL}
+  (    1 +3.3V )
+  (    2 GND )
  )
- ( /51E0355B SM0805 C18 100n
-  ( 1 GND )
-  ( 2 +3.3V )
+ ( /51E2F4D7 $noname  C23 2.2u {Lib=CSMALL}
+  (    1 N-000045 )
+  (    2 GND )
  )
- ( /51E0355A SM0805 C19 100n
-  ( 1 GND )
-  ( 2 +3.3V )
+ ( /51E2F4CE $noname  C24 2.2u {Lib=CSMALL}
+  (    1 N-000128 )
+  (    2 GND )
  )
- ( /51E29A9A SM0805 C20 22p
-  ( 1 /osc_out )
-  ( 2 GND )
+ ( /51E29A9A $noname  C20 22p {Lib=CSMALL}
+  (    1 /osc_out )
+  (    2 GND )
  )
- ( /51E31FE2 SM0805 C21 4.7u
-  ( 1 GND )
-  ( 2 +3.3V )
+ ( /51E29A90 $noname  C3 22p {Lib=CSMALL}
+  (    1 /osc_in )
+  (    2 GND )
  )
- ( /51E31FCA SM0805 C22 100n
-  ( 1 +3.3V )
-  ( 2 GND )
+ ( /51E29A2D $noname  X1 CRYSTAL {Lib=CRYSTAL}
+  (    1 /osc_out )
+  (    2 /osc_in )
  )
- ( /51E2F4D7 SM0805 C23 2.2u
-  ( 1 N-000129 )
-  ( 2 GND )
+ ( /51E26CC1 $noname  U6 LP38691 {Lib=LP38691}
+  (    1 +3.3V )
+  (    2 GND )
+  (    3 +5V )
  )
- ( /51E2F4CE SM0805 C24 2.2u
-  ( 1 N-000034 )
-  ( 2 GND )
+ ( /51E1C369 $noname  JP1 JUMPER3 {Lib=JUMPER3}
+  (    1 /usb_5v )
+  (    2 +5V )
+  (    3 /ext_5v )
  )
- ( /51E32464 SM0805 C25 100n
-  ( 1 /3V3_adc )
-  ( 2 GND )
+ ( /51E1C358 $noname  P6 CONN_3 {Lib=CONN_3}
+  (    1 /ext_5v )
+  (    2 ? )
+  (    3 GND )
  )
- ( /51E3245F SM0805 C26 1u
-  ( 1 /3V3_adc )
-  ( 2 GND )
+ ( /51E1C15D $noname  L1 30@100MHz {Lib=INDUCTOR}
+  (    1 GND )
+  (    2 N-000027 )
  )
- ( /51E323F3 SM0805 C27 100n
-  ( 1 /3V3_adc )
-  ( 2 GND )
+ ( /51E1C158 $noname  P7 KNUSB {Lib=KNUSB}
+  (    1 /usb_5v )
+  (    2 /usb_dm )
+  (    3 /usb_dp )
+  (    4 /usb_id )
+  (    5 GND )
+  (    6 N-000027 )
  )
- ( /51E32404 SM0805 C28 1u
-  ( 1 /3V3_adc )
-  ( 2 GND )
+ ( /51E1C012 $noname  P4 DIL32 {Lib=DIL32}
+  (    1 /sram_a10 )
+  (    2 /sram_a11 )
+  (    3 /sram_a12 )
+  (    4 /sram_a13 )
+  (    5 /sram_a14 )
+  (    6 /sram_a15 )
+  (    7 /pg6 )
+  (    8 /pg7 )
+  (    9 /pg8 )
+  (   10 /sram2_ce )
+  (   11 /sram3_ce )
+  (   12 /pg11 )
+  (   13 /sram4_ce )
+  (   14 /pg13 )
+  (   15 /pg14 )
+  (   16 /user_led )
+  (   17 GND )
+  (   18 GND )
+  (   19 +3.3V )
+  (   20 +3.3V )
+  (   21 +5V )
+  (   22 +5V )
+  (   23 +3.3V )
+  (   24 +3.3V )
+  (   25 GND )
+  (   26 GND )
+  (   27 +3.3V )
+  (   28 /swclk )
+  (   29 GND )
+  (   30 /swdio )
+  (   31 /nrst )
+  (   32 /swo )
  )
- ( /51E39DB5 SM0805 C29 100n
-  ( 1 /nrst )
-  ( 2 GND )
+ ( /51E1C003 $noname  P3 DIL32 {Lib=DIL32}
+  (    1 /sram_ble )
+  (    2 /sram_bhe )
+  (    3 /pe2 )
+  (    4 /sram_a19 )
+  (    5 /sram_a20 )
+  (    6 /pe5 )
+  (    7 /pe6 )
+  (    8 /sram_d4 )
+  (    9 /sram_d5 )
+  (   10 /sram_d6 )
+  (   11 /sram_d7 )
+  (   12 /sram_d8 )
+  (   13 /sram_d9 )
+  (   14 /sram_d10 )
+  (   15 /sram_d11 )
+  (   16 /sram_d12 )
+  (   17 /sram_a0 )
+  (   18 /sram_a1 )
+  (   19 /sram_a2 )
+  (   20 /sram_a3 )
+  (   21 /sram_a4 )
+  (   22 /sram_a5 )
+  (   23 /pf6 )
+  (   24 /pf7 )
+  (   25 /pf8 )
+  (   26 /pf9 )
+  (   27 /pf10 )
+  (   28 /pf11 )
+  (   29 /sram_a6 )
+  (   30 /sram_a7 )
+  (   31 /sram_a8 )
+  (   32 /sram_a9 )
  )
- ( /51E9B00E SM0805 C30 100n
-  ( 1 +3.3V )
-  ( 2 GND )
+ ( /51E1BFD7 $noname  P2 DIL32 {Lib=DIL32}
+  (    1 /pc0 )
+  (    2 /pc1 )
+  (    3 /pc2 )
+  (    4 /pc3 )
+  (    5 /pc4 )
+  (    6 /pc5 )
+  (    7 /pc6 )
+  (    8 /pc7 )
+  (    9 /sd_d0 )
+  (   10 /sd_d1 )
+  (   11 /sd_d2 )
+  (   12 /sd_d3 )
+  (   13 /sd_clk )
+  (   14 /sd_cd )
+  (   15 /sd_wp )
+  (   16 /pc15 )
+  (   17 /sram_d2 )
+  (   18 /sram_d3 )
+  (   19 /sd_cmd )
+  (   20 /pd3 )
+  (   21 /sram_oe )
+  (   22 /sram_we )
+  (   23 /pd6 )
+  (   24 /sram1_ce )
+  (   25 /sram_d13 )
+  (   26 /sram_d14 )
+  (   27 /sram_d15 )
+  (   28 /sram_a16 )
+  (   29 /sram_a17 )
+  (   30 /sram_a18 )
+  (   31 /sram_d0 )
+  (   32 /sram_d1 )
  )
- ( /51E9B65E LED-0805 D1 SML-211UTT86
-  ( 1 N-000126 )
-  ( 2 GND )
+ ( /51E1BEB6 $noname  P1 DIL32 {Lib=DIL32}
+  (    1 /pa0 )
+  (    2 /pa1 )
+  (    3 /pa2 )
+  (    4 /pa3 )
+  (    5 /pa4 )
+  (    6 /pa5 )
+  (    7 /pa6 )
+  (    8 /pa7 )
+  (    9 /pa8 )
+  (   10 /pa9 )
+  (   11 /usb_id )
+  (   12 /usb_dm )
+  (   13 /usb_dp )
+  (   14 /swdio )
+  (   15 /swclk )
+  (   16 /pa15 )
+  (   17 /pb0 )
+  (   18 /pb1 )
+  (   19 /pb2 )
+  (   20 /swo )
+  (   21 /pb4 )
+  (   22 /pb5 )
+  (   23 /pb6 )
+  (   24 /pb7 )
+  (   25 /pb8 )
+  (   26 /pb9 )
+  (   27 /pb10 )
+  (   28 /pb11 )
+  (   29 /pb12 )
+  (   30 /pb13 )
+  (   31 /pb14 )
+  (   32 /pb15 )
  )
- ( /51E9B667 LED-0805 D2 SML-211YTT86
-  ( 1 N-000121 )
-  ( 2 GND )
+ ( /51E0355B $noname  C18 100n {Lib=CSMALL}
+  (    1 GND )
+  (    2 +3.3V )
  )
- ( /51E1C369 SIL-3 JP1 JUMPER3
-  ( 1 /usb_5v )
-  ( 2 +5V )
-  ( 3 /ext_5v )
+ ( /51E0355A $noname  C19 100n {Lib=CSMALL}
+  (    1 GND )
+  (    2 +3.3V )
  )
- ( /51E1C15D SM0603 L1 30@100MHz
-  ( 1 GND )
-  ( 2 N-000024 )
+ ( /51E03559 $noname  C17 100n {Lib=CSMALL}
+  (    1 GND )
+  (    2 +3.3V )
  )
- ( /51E3A64F SM0603 L2 22@100MHz
-  ( 1 +3.3V )
-  ( 2 /3V3_adc )
+ ( /51E03558 $noname  C16 100n {Lib=CSMALL}
+  (    1 GND )
+  (    2 +3.3V )
  )
- ( /51E1BEB6 DIL_2X16 P1 DIL32
-  ( 1 /pa0 )
-  ( 2 /pa1 )
-  ( 3 /pa2 )
-  ( 4 /pa3 )
-  ( 5 /pa4 )
-  ( 6 /pa5 )
-  ( 7 /pa6 )
-  ( 8 /pa7 )
-  ( 9 /pa8 )
-  ( 10 /pa9 )
-  ( 11 /usb_id )
-  ( 12 /usb_dm )
-  ( 13 /usb_dp )
-  ( 14 /swdio )
-  ( 15 /swclk )
-  ( 16 /pa15 )
-  ( 17 /pb0 )
-  ( 18 /pb1 )
-  ( 19 /pb2 )
-  ( 20 /swo )
-  ( 21 /pb4 )
-  ( 22 /pb5 )
-  ( 23 /pb6 )
-  ( 24 /pb7 )
-  ( 25 /pb8 )
-  ( 26 /pb9 )
-  ( 27 /pb10 )
-  ( 28 /pb11 )
-  ( 29 /pb12 )
-  ( 30 /pb13 )
-  ( 31 /pb14 )
-  ( 32 /pb15 )
+ ( /51E0354F $noname  C8 100n {Lib=CSMALL}
+  (    1 GND )
+  (    2 +3.3V )
  )
- ( /51E1BFD7 DIL_2X16 P2 DIL32
-  ( 1 /pc0 )
-  ( 2 /pc1 )
-  ( 3 /pc2 )
-  ( 4 /pc3 )
-  ( 5 /pc4 )
-  ( 6 /pc5 )
-  ( 7 /pc6 )
-  ( 8 /pc7 )
-  ( 9 /sd_d0 )
-  ( 10 /sd_d1 )
-  ( 11 /sd_d2 )
-  ( 12 /sd_d3 )
-  ( 13 /sd_clk )
-  ( 14 /sd_cd )
-  ( 15 /sd_wp )
-  ( 16 /pc15 )
-  ( 17 /sram_d2 )
-  ( 18 /sram_d3 )
-  ( 19 /sd_cmd )
-  ( 20 /pd3 )
-  ( 21 /sram_oe )
-  ( 22 /sram_we )
-  ( 23 /pd6 )
-  ( 24 /sram1_ce )
-  ( 25 /sram_d13 )
-  ( 26 /sram_d14 )
-  ( 27 /sram_d15 )
-  ( 28 /sram_a16 )
-  ( 29 /sram_a17 )
-  ( 30 /sram_a18 )
-  ( 31 /sram_d0 )
-  ( 32 /sram_d1 )
+ ( /51E0354E $noname  C9 100n {Lib=CSMALL}
+  (    1 GND )
+  (    2 +3.3V )
  )
- ( /51E1C003 DIL_2X16 P3 DIL32
-  ( 1 /sram_ble )
-  ( 2 /sram_bhe )
-  ( 3 /pe2 )
-  ( 4 /sram_a19 )
-  ( 5 /sram_a20 )
-  ( 6 /pe5 )
-  ( 7 /pe6 )
-  ( 8 /sram_d4 )
-  ( 9 /sram_d5 )
-  ( 10 /sram_d6 )
-  ( 11 /sram_d7 )
-  ( 12 /sram_d8 )
-  ( 13 /sram_d9 )
-  ( 14 /sram_d10 )
-  ( 15 /sram_d11 )
-  ( 16 /sram_d12 )
-  ( 17 /sram_a0 )
-  ( 18 /sram_a1 )
-  ( 19 /sram_a2 )
-  ( 20 /sram_a3 )
-  ( 21 /sram_a4 )
-  ( 22 /sram_a5 )
-  ( 23 /pf6 )
-  ( 24 /pf7 )
-  ( 25 /pf8 )
-  ( 26 /pf9 )
-  ( 27 /pf10 )
-  ( 28 /pf11 )
-  ( 29 /sram_a6 )
-  ( 30 /sram_a7 )
-  ( 31 /sram_a8 )
-  ( 32 /sram_a9 )
+ ( /51E0354D $noname  C11 100n {Lib=CSMALL}
+  (    1 GND )
+  (    2 +3.3V )
  )
- ( /51E1C012 DIL_2X16 P4 DIL32
-  ( 1 /sram_a10 )
-  ( 2 /sram_a11 )
-  ( 3 /sram_a12 )
-  ( 4 /sram_a13 )
-  ( 5 /sram_a14 )
-  ( 6 /sram_a15 )
-  ( 7 /pg6 )
-  ( 8 /pg7 )
-  ( 9 /pg8 )
-  ( 10 /sram2_ce )
-  ( 11 /sram3_ce )
-  ( 12 /pg11 )
-  ( 13 /sram4_ce )
-  ( 14 /pg13 )
-  ( 15 /pg14 )
-  ( 16 /user_led )
-  ( 17 GND )
-  ( 18 GND )
-  ( 19 +3.3V )
-  ( 20 +3.3V )
-  ( 21 +5V )
-  ( 22 +5V )
-  ( 23 +3.3V )
-  ( 24 +3.3V )
-  ( 25 GND )
-  ( 26 GND )
-  ( 27 +3.3V )
-  ( 28 /swclk )
-  ( 29 GND )
-  ( 30 /swdio )
-  ( 31 /nrst )
-  ( 32 /swo )
+ ( /51E0354C $noname  C10 100n {Lib=CSMALL}
+  (    1 GND )
+  (    2 +3.3V )
  )
- ( /51E1C358 con-jack-DCJ0303 P6 CONN_3
-  ( 1 /ext_5v )
-  ( 2 ? )
-  ( 3 GND )
+ ( /51E03543 $noname  C14 100n {Lib=CSMALL}
+  (    1 GND )
+  (    2 +3.3V )
  )
- ( /51E1C158 10103594-0001LF P7 KNUSB
-  ( 1 /usb_5v )
-  ( 2 /usb_dm )
-  ( 3 /usb_dp )
-  ( 4 /usb_id )
-  ( 5 GND )
-  ( 6 N-000024 )
+ ( /51E03542 $noname  C15 100n {Lib=CSMALL}
+  (    1 GND )
+  (    2 +3.3V )
  )
- ( /51E9AE92 SD_CARD_10100 P8 SD_CARD
-  ( 1 /sd_d3 )
-  ( 2 /sd_cmd )
-  ( 3 GND )
-  ( 4 +3.3V )
-  ( 5 /sd_clk )
-  ( 6 GND )
-  ( 7 /sd_d0 )
-  ( 8 /sd_d1 )
-  ( 9 /sd_d2 )
-  ( 10 /sd_cd )
-  ( 11 /sd_wp )
-  ( 12 ? )
+ ( /51E0352E $noname  C13 100n {Lib=CSMALL}
+  (    1 GND )
+  (    2 +3.3V )
  )
- ( /51E9B6BD SM0805 R1 1k
-  ( 1 +3.3V )
-  ( 2 N-000126 )
+ ( /51E0350B $noname  C12 100n {Lib=CSMALL}
+  (    1 GND )
+  (    2 +3.3V )
  )
- ( /51E9B6C3 SM0805 R2 1k
-  ( 1 /user_led )
-  ( 2 N-000121 )
+ ( /51E0323E $noname  C4 100n {Lib=CSMALL}
+  (    1 +3.3V )
+  (    2 GND )
  )
- ( /51D12604 LQFP144 U1 STM32F40X_LQFP144
-  ( 1 /pe2 )
-  ( 2 /sram_a19 )
-  ( 3 /sram_a20 )
-  ( 4 /pe5 )
-  ( 5 /pe6 )
-  ( 6 +3.3V )
-  ( 7 /sd_cd )
-  ( 8 /sd_wp )
-  ( 9 /pc15 )
-  ( 10 /sram_a0 )
-  ( 11 /sram_a1 )
-  ( 12 /sram_a2 )
-  ( 13 /sram_a3 )
-  ( 14 /sram_a4 )
-  ( 15 /sram_a5 )
-  ( 16 GND )
-  ( 17 +3.3V )
-  ( 18 /pf6 )
-  ( 19 /pf7 )
-  ( 20 /pf8 )
-  ( 21 /pf9 )
-  ( 22 /pf10 )
-  ( 23 /osc_in )
-  ( 24 /osc_out )
-  ( 25 /nrst )
-  ( 26 /pc0 )
-  ( 27 /pc1 )
-  ( 28 /pc2 )
-  ( 29 /pc3 )
-  ( 30 +3.3V )
-  ( 31 GND )
-  ( 32 /3V3_adc )
-  ( 33 /3V3_adc )
-  ( 34 /pa0 )
-  ( 35 /pa1 )
-  ( 36 /pa2 )
-  ( 37 /pa3 )
-  ( 38 GND )
-  ( 39 +3.3V )
-  ( 40 /pa4 )
-  ( 41 /pa5 )
-  ( 42 /pa6 )
-  ( 43 /pa7 )
-  ( 44 /pc4 )
-  ( 45 /pc5 )
-  ( 46 /pb0 )
-  ( 47 /pb1 )
-  ( 48 /pb2 )
-  ( 49 /pf11 )
-  ( 50 /sram_a6 )
-  ( 51 GND )
-  ( 52 +3.3V )
-  ( 53 /sram_a7 )
-  ( 54 /sram_a8 )
-  ( 55 /sram_a9 )
-  ( 56 /sram_a10 )
-  ( 57 /sram_a11 )
-  ( 58 /sram_d4 )
-  ( 59 /sram_d5 )
-  ( 60 /sram_d6 )
-  ( 61 GND )
-  ( 62 +3.3V )
-  ( 63 /sram_d7 )
-  ( 64 /sram_d8 )
-  ( 65 /sram_d9 )
-  ( 66 /sram_d10 )
-  ( 67 /sram_d11 )
-  ( 68 /sram_d12 )
-  ( 69 /pb10 )
-  ( 70 /pb11 )
-  ( 71 N-000129 )
-  ( 72 +3.3V )
-  ( 73 /pb12 )
-  ( 74 /pb13 )
-  ( 75 /pb14 )
-  ( 76 /pb15 )
-  ( 77 /sram_d13 )
-  ( 78 /sram_d14 )
-  ( 79 /sram_d15 )
-  ( 80 /sram_a16 )
-  ( 81 /sram_a17 )
-  ( 82 /sram_a18 )
-  ( 83 GND )
-  ( 84 +3.3V )
-  ( 85 /sram_d0 )
-  ( 86 /sram_d1 )
-  ( 87 /sram_a12 )
-  ( 88 /sram_a13 )
-  ( 89 /sram_a14 )
-  ( 90 /sram_a15 )
-  ( 91 /pg6 )
-  ( 92 /pg7 )
-  ( 93 /pg8 )
-  ( 94 GND )
-  ( 95 +3.3V )
-  ( 96 /pc6 )
-  ( 97 /pc7 )
-  ( 98 /sd_d0 )
-  ( 99 /sd_d1 )
-  ( 100 /pa8 )
-  ( 101 /pa9 )
-  ( 102 /usb_id )
-  ( 103 /usb_dm )
-  ( 104 /usb_dp )
-  ( 105 /swdio )
-  ( 106 N-000034 )
-  ( 107 GND )
-  ( 108 +3.3V )
-  ( 109 /swclk )
-  ( 110 /pa15 )
-  ( 111 /sd_d2 )
-  ( 112 /sd_d3 )
-  ( 113 /sd_clk )
-  ( 114 /sram_d2 )
-  ( 115 /sram_d3 )
-  ( 116 /sd_cmd )
-  ( 117 /pd3 )
-  ( 118 /sram_oe )
-  ( 119 /sram_we )
-  ( 120 GND )
-  ( 121 +3.3V )
-  ( 122 /pd6 )
-  ( 123 /sram1_ce )
-  ( 124 /sram2_ce )
-  ( 125 /sram3_ce )
-  ( 126 /pg11 )
-  ( 127 /sram4_ce )
-  ( 128 /pg13 )
-  ( 129 /pg14 )
-  ( 130 GND )
-  ( 131 +3.3V )
-  ( 132 /user_led )
-  ( 133 /swo )
-  ( 134 /pb4 )
-  ( 135 /pb5 )
-  ( 136 /pb6 )
-  ( 137 /pb7 )
-  ( 138 GND )
-  ( 139 /pb8 )
-  ( 140 /pb9 )
-  ( 141 /sram_ble )
-  ( 142 /sram_bhe )
-  ( 143 +3.3V )
-  ( 144 +3.3V )
+ ( /51E028F7 $noname  C2 2.2u {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
  )
- ( /51DEF32A TSOP-I-48 U2 CY62177D
-  ( 1 /sram_a15 )
-  ( 2 /sram_a14 )
-  ( 3 /sram_a13 )
-  ( 4 /sram_a12 )
-  ( 5 /sram_a11 )
-  ( 6 /sram_a10 )
-  ( 7 /sram_a9 )
-  ( 8 /sram_a8 )
-  ( 9 /sram_a19 )
-  ( 10 /sram_a20 )
-  ( 11 /sram_we )
-  ( 12 +3.3V )
-  ( 13 ? )
-  ( 14 /sram_bhe )
-  ( 15 /sram_ble )
-  ( 16 /sram_a18 )
-  ( 17 /sram_a17 )
-  ( 18 /sram_a7 )
-  ( 19 /sram_a6 )
-  ( 20 /sram_a5 )
-  ( 21 /sram_a4 )
-  ( 22 /sram_a3 )
-  ( 23 /sram_a2 )
-  ( 24 /sram_a1 )
-  ( 25 /sram_a0 )
-  ( 26 /sram1_ce )
-  ( 27 GND )
-  ( 28 /sram_oe )
-  ( 29 /sram_d0 )
-  ( 30 /sram_d8 )
-  ( 31 /sram_d1 )
-  ( 32 /sram_d9 )
-  ( 33 /sram_d2 )
-  ( 34 /sram_d10 )
-  ( 35 /sram_d3 )
-  ( 36 /sram_d11 )
-  ( 37 +3.3V )
-  ( 38 /sram_d4 )
-  ( 39 /sram_d12 )
-  ( 40 /sram_d5 )
-  ( 41 /sram_d13 )
-  ( 42 /sram_d6 )
-  ( 43 /sram_d14 )
-  ( 44 /sram_d7 )
-  ( 45 /sram_d15 )
-  ( 46 GND )
-  ( 47 +3.3V )
-  ( 48 /sram_a16 )
+ ( /51E028F5 $noname  C1 2.2u {Lib=C}
+  (    1 +5V )
+  (    2 GND )
  )
- ( /51E26CC1 TO-252-3 U6 LP38691
-  ( 1 +3.3V )
-  ( 2 GND )
-  ( 3 +5V )
+ ( /51DEF32A $noname  U2 CY62177D {Lib=CY62177D}
+  (    1 /sram_a15 )
+  (    2 /sram_a14 )
+  (    3 /sram_a13 )
+  (    4 /sram_a12 )
+  (    5 /sram_a11 )
+  (    6 /sram_a10 )
+  (    7 /sram_a9 )
+  (    8 /sram_a8 )
+  (    9 /sram_a19 )
+  (   10 /sram_a20 )
+  (   11 /sram_we )
+  (   12 +3.3V )
+  (   13 ? )
+  (   14 /sram_bhe )
+  (   15 /sram_ble )
+  (   16 /sram_a18 )
+  (   17 /sram_a17 )
+  (   18 /sram_a7 )
+  (   19 /sram_a6 )
+  (   20 /sram_a5 )
+  (   21 /sram_a4 )
+  (   22 /sram_a3 )
+  (   23 /sram_a2 )
+  (   24 /sram_a1 )
+  (   25 /sram_a0 )
+  (   26 /sram1_ce )
+  (   27 GND )
+  (   28 /sram_oe )
+  (   29 /sram_d0 )
+  (   30 /sram_d8 )
+  (   31 /sram_d1 )
+  (   32 /sram_d9 )
+  (   33 /sram_d2 )
+  (   34 /sram_d10 )
+  (   35 /sram_d3 )
+  (   36 /sram_d11 )
+  (   37 +3.3V )
+  (   38 /sram_d4 )
+  (   39 /sram_d12 )
+  (   40 /sram_d5 )
+  (   41 /sram_d13 )
+  (   42 /sram_d6 )
+  (   43 /sram_d14 )
+  (   44 /sram_d7 )
+  (   45 /sram_d15 )
+  (   46 GND )
+  (   47 +3.3V )
+  (   48 /sram_a16 )
  )
- ( /51E29A2D 2-SOJ X1 CRYSTAL
-  ( 1 /osc_out )
-  ( 2 /osc_in )
+ ( /51D12604 $noname  U1 STM32F40X_LQFP144 {Lib=STM32F40X_LQFP144}
+  (    1 /pe2 )
+  (    2 /sram_a19 )
+  (    3 /sram_a20 )
+  (    4 /pe5 )
+  (    5 /pe6 )
+  (    6 +3.3V )
+  (    7 /sd_cd )
+  (    8 /sd_wp )
+  (    9 /pc15 )
+  (   10 /sram_a0 )
+  (   11 /sram_a1 )
+  (   12 /sram_a2 )
+  (   13 /sram_a3 )
+  (   14 /sram_a4 )
+  (   15 /sram_a5 )
+  (   16 GND )
+  (   17 +3.3V )
+  (   18 /pf6 )
+  (   19 /pf7 )
+  (   20 /pf8 )
+  (   21 /pf9 )
+  (   22 /pf10 )
+  (   23 /osc_in )
+  (   24 /osc_out )
+  (   25 /nrst )
+  (   26 /pc0 )
+  (   27 /pc1 )
+  (   28 /pc2 )
+  (   29 /pc3 )
+  (   30 +3.3V )
+  (   31 GND )
+  (   32 /3V3_adc )
+  (   33 /3V3_adc )
+  (   34 /pa0 )
+  (   35 /pa1 )
+  (   36 /pa2 )
+  (   37 /pa3 )
+  (   38 GND )
+  (   39 +3.3V )
+  (   40 /pa4 )
+  (   41 /pa5 )
+  (   42 /pa6 )
+  (   43 /pa7 )
+  (   44 /pc4 )
+  (   45 /pc5 )
+  (   46 /pb0 )
+  (   47 /pb1 )
+  (   48 /pb2 )
+  (   49 /pf11 )
+  (   50 /sram_a6 )
+  (   51 GND )
+  (   52 +3.3V )
+  (   53 /sram_a7 )
+  (   54 /sram_a8 )
+  (   55 /sram_a9 )
+  (   56 /sram_a10 )
+  (   57 /sram_a11 )
+  (   58 /sram_d4 )
+  (   59 /sram_d5 )
+  (   60 /sram_d6 )
+  (   61 GND )
+  (   62 +3.3V )
+  (   63 /sram_d7 )
+  (   64 /sram_d8 )
+  (   65 /sram_d9 )
+  (   66 /sram_d10 )
+  (   67 /sram_d11 )
+  (   68 /sram_d12 )
+  (   69 /pb10 )
+  (   70 /pb11 )
+  (   71 N-000045 )
+  (   72 +3.3V )
+  (   73 /pb12 )
+  (   74 /pb13 )
+  (   75 /pb14 )
+  (   76 /pb15 )
+  (   77 /sram_d13 )
+  (   78 /sram_d14 )
+  (   79 /sram_d15 )
+  (   80 /sram_a16 )
+  (   81 /sram_a17 )
+  (   82 /sram_a18 )
+  (   83 GND )
+  (   84 +3.3V )
+  (   85 /sram_d0 )
+  (   86 /sram_d1 )
+  (   87 /sram_a12 )
+  (   88 /sram_a13 )
+  (   89 /sram_a14 )
+  (   90 /sram_a15 )
+  (   91 /pg6 )
+  (   92 /pg7 )
+  (   93 /pg8 )
+  (   94 GND )
+  (   95 +3.3V )
+  (   96 /pc6 )
+  (   97 /pc7 )
+  (   98 /sd_d0 )
+  (   99 /sd_d1 )
+  (  100 /pa8 )
+  (  101 /pa9 )
+  (  102 /usb_id )
+  (  103 /usb_dm )
+  (  104 /usb_dp )
+  (  105 /swdio )
+  (  106 N-000128 )
+  (  107 GND )
+  (  108 +3.3V )
+  (  109 /swclk )
+  (  110 /pa15 )
+  (  111 /sd_d2 )
+  (  112 /sd_d3 )
+  (  113 /sd_clk )
+  (  114 /sram_d2 )
+  (  115 /sram_d3 )
+  (  116 /sd_cmd )
+  (  117 /pd3 )
+  (  118 /sram_oe )
+  (  119 /sram_we )
+  (  120 GND )
+  (  121 +3.3V )
+  (  122 /pd6 )
+  (  123 /sram1_ce )
+  (  124 /sram2_ce )
+  (  125 /sram3_ce )
+  (  126 /pg11 )
+  (  127 /sram4_ce )
+  (  128 /pg13 )
+  (  129 /pg14 )
+  (  130 GND )
+  (  131 +3.3V )
+  (  132 /user_led )
+  (  133 /swo )
+  (  134 /pb4 )
+  (  135 /pb5 )
+  (  136 /pb6 )
+  (  137 /pb7 )
+  (  138 GND )
+  (  139 /pb8 )
+  (  140 /pb9 )
+  (  141 /sram_ble )
+  (  142 /sram_bhe )
+  (  143 +3.3V )
+  (  144 +3.3V )
  )
 )
 *
@@ -517,87 +517,67 @@
 $component B1
  SWITCH_FSMJSMA
 $endlist
-$component C1
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C30
  SM*
  C?
  C1-1
 $endlist
-$component C2
+$component P8
+ SD_CARD_10100
+$endlist
+$component C29
  SM*
  C?
  C1-1
 $endlist
-$component C3
+$component C25
  SM*
  C?
  C1-1
 $endlist
-$component C4
+$component C26
  SM*
  C?
  C1-1
 $endlist
-$component C8
+$component C28
  SM*
  C?
  C1-1
 $endlist
-$component C9
- SM*
- C?
- C1-1
-$endlist
-$component C10
- SM*
- C?
- C1-1
-$endlist
-$component C11
- SM*
- C?
- C1-1
-$endlist
-$component C12
- SM*
- C?
- C1-1
-$endlist
-$component C13
- SM*
- C?
- C1-1
-$endlist
-$component C14
- SM*
- C?
- C1-1
-$endlist
-$component C15
- SM*
- C?
- C1-1
-$endlist
-$component C16
- SM*
- C?
- C1-1
-$endlist
-$component C17
- SM*
- C?
- C1-1
-$endlist
-$component C18
- SM*
- C?
- C1-1
-$endlist
-$component C19
- SM*
- C?
- C1-1
-$endlist
-$component C20
+$component C27
  SM*
  C?
  C1-1
@@ -622,94 +602,660 @@ $component C24
  C?
  C1-1
 $endlist
-$component C25
+$component C20
  SM*
  C?
  C1-1
 $endlist
-$component C26
+$component C3
  SM*
  C?
  C1-1
 $endlist
-$component C27
- SM*
- C?
- C1-1
+$component U6
+ PFM
 $endlist
-$component C28
- SM*
- C?
- C1-1
+$component P7
+ 10103594-0001LF
 $endlist
-$component C29
- SM*
- C?
- C1-1
-$endlist
-$component C30
- SM*
- C?
- C1-1
-$endlist
-$component D1
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D2
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component P1
- DIL_2X16
-$endlist
-$component P2
+$component P4
  DIL_2X16
 $endlist
 $component P3
  DIL_2X16
 $endlist
-$component P4
+$component P2
  DIL_2X16
 $endlist
-$component P7
- 10103594-0001LF
+$component P1
+ DIL_2X16
 $endlist
-$component P8
- SD_CARD_10100
+$component C18
+ SM*
+ C?
+ C1-1
 $endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
+$component C19
+ SM*
+ C?
+ C1-1
 $endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
- SM1206
+$component C17
+ SM*
+ C?
+ C1-1
 $endlist
-$component U1
- LQFP144
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
 $endlist
 $component U2
  TSOP48
 $endlist
-$component U6
- PFM
+$component U1
+ LQFP144
 $endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 1 "+3.3V" "+3.3V"
+ U1 144
+ C16 2
+ C8 2
+ C17 2
+ C19 2
+ C9 2
+ C18 2
+ U1 143
+ C10 2
+ P4 20
+ C11 2
+ C30 1
+ U1 108
+ R1 1
+ U1 121
+ U1 30
+ U1 39
+ U2 37
+ U2 47
+ U1 6
+ U1 72
+ U1 131
+ U6 1
+ U1 52
+ U1 62
+ U2 12
+ C2 1
+ U1 84
+ U1 95
+ U1 17
+ C21 2
+ P4 23
+ C4 1
+ C12 2
+ P4 27
+ C22 1
+ P8 4
+ C14 2
+ C15 2
+ L2 1
+ C13 2
+ P4 19
+ P4 24
+Net 2 "/sd_wp" "sd_wp"
+ U1 8
+ P8 11
+ P2 15
+Net 3 "/pc15" "pc15"
+ U1 9
+ P2 16
+Net 5 "/ext_5v" "ext_5v"
+ JP1 3
+ P6 1
+Net 6 "/sram_d13" "sram_d13"
+ P2 25
+ U1 77
+ U2 41
+Net 7 "/sram_d2" "sram_d2"
+ U2 33
+ P2 17
+ U1 114
+Net 8 "/sram_d3" "sram_d3"
+ U1 115
+ U2 35
+ P2 18
+Net 9 "/sram_oe" "sram_oe"
+ P2 21
+ U2 28
+ U1 118
+Net 10 "/sram_we" "sram_we"
+ U2 11
+ U1 119
+ P2 22
+Net 11 "/sram1_ce" "sram1_ce"
+ P2 24
+ U2 26
+ U1 123
+Net 12 "/sram_d14" "sram_d14"
+ U2 43
+ U1 78
+ P2 26
+Net 13 "/sram_d15" "sram_d15"
+ P2 27
+ U1 79
+ U2 45
+Net 14 "/sram_a16" "sram_a16"
+ U2 48
+ P2 28
+ U1 80
+Net 15 "/sram_a17" "sram_a17"
+ U1 81
+ P2 29
+ U2 17
+Net 16 "/sram_a18" "sram_a18"
+ U2 16
+ P2 30
+ U1 82
+Net 17 "/sram_d0" "sram_d0"
+ U1 85
+ P2 31
+ U2 29
+Net 18 "/sram_d1" "sram_d1"
+ U2 31
+ P2 32
+ U1 86
+Net 19 "/sram4_ce" "sram4_ce"
+ U1 127
+ P4 13
+Net 20 "/sram3_ce" "sram3_ce"
+ U1 125
+ P4 11
+Net 21 "/sram_a20" "sram_a20"
+ P3 5
+ U1 3
+ U2 10
+Net 22 "/sram_a19" "sram_a19"
+ U2 9
+ P3 4
+ U1 2
+Net 23 "/sram_bhe" "sram_bhe"
+ U1 142
+ P3 2
+ U2 14
+Net 24 "/sram_ble" "sram_ble"
+ U1 141
+ P3 1
+ U2 15
+Net 25 "/usb_5v" "usb_5v"
+ JP1 1
+ P7 1
+Net 26 "+5V" "+5V"
+ JP1 2
+ U6 3
+ C1 1
+ P4 22
+ P4 21
+Net 27 "" ""
+ L1 2
+ P7 6
+Net 28 "/sram2_ce" "sram2_ce"
+ P4 10
+ U1 124
+Net 29 "/pe5" "pe5"
+ U1 4
+ P3 6
+Net 30 "/pa4" "pa4"
+ P1 5
+ U1 40
+Net 31 "/pf8" "pf8"
+ P3 25
+ U1 20
+Net 32 "/sd_cd" "sd_cd"
+ P2 14
+ U1 7
+ P8 10
+Net 33 "/pe6" "pe6"
+ P3 7
+ U1 5
+Net 34 "/pb11" "pb11"
+ P1 28
+ U1 70
+Net 35 "/pe2" "pe2"
+ P3 3
+ U1 1
+Net 36 "/pa6" "pa6"
+ U1 42
+ P1 7
+Net 37 "/pg8" "pg8"
+ P4 9
+ U1 93
+Net 38 "/pb12" "pb12"
+ U1 73
+ P1 29
+Net 39 "/pa7" "pa7"
+ U1 43
+ P1 8
+Net 40 "/pg7" "pg7"
+ U1 92
+ P4 8
+Net 41 "/pf10" "pf10"
+ P3 27
+ U1 22
+Net 42 "/pg6" "pg6"
+ P4 7
+ U1 91
+Net 43 "/pa5" "pa5"
+ P1 6
+ U1 41
+Net 44 "/pf9" "pf9"
+ U1 21
+ P3 26
+Net 45 "" ""
+ C23 1
+ U1 71
+Net 46 "/pa0" "pa0"
+ P1 1
+ U1 34
+Net 47 "/swo" "swo"
+ U1 133
+ P4 32
+ P1 20
+Net 48 "/sd_clk" "sd_clk"
+ P8 5
+ U1 113
+ P2 13
+Net 49 "/usb_dm" "usb_dm"
+ P7 2
+ U1 103
+ P1 12
+Net 50 "/user_led" "user_led"
+ P4 16
+ R2 1
+ U1 132
+Net 51 "/pd6" "pd6"
+ U1 122
+ P2 23
+Net 52 "/sd_d3" "sd_d3"
+ P8 1
+ P2 12
+ U1 112
+Net 53 "/usb_id" "usb_id"
+ P1 11
+ U1 102
+ P7 4
+Net 54 "/usb_dp" "usb_dp"
+ U1 104
+ P1 13
+ P7 3
+Net 55 "/sd_d2" "sd_d2"
+ P2 11
+ P8 9
+ U1 111
+Net 56 "/pa9" "pa9"
+ P1 10
+ U1 101
+Net 57 "/pb9" "pb9"
+ U1 140
+ P1 26
+Net 58 "/pa15" "pa15"
+ U1 110
+ P1 16
+Net 59 "/pa8" "pa8"
+ U1 100
+ P1 9
+Net 60 "/sd_d1" "sd_d1"
+ P2 10
+ U1 99
+ P8 8
+Net 61 "/pb10" "pb10"
+ U1 69
+ P1 27
+Net 62 "/pb6" "pb6"
+ P1 23
+ U1 136
+Net 63 "/pb8" "pb8"
+ P1 25
+ U1 139
+Net 64 "/pg14" "pg14"
+ P4 15
+ U1 129
+Net 65 "/swclk" "swclk"
+ P4 28
+ U1 109
+ P1 15
+Net 66 "/pg13" "pg13"
+ U1 128
+ P4 14
+Net 67 "/pb7" "pb7"
+ U1 137
+ P1 24
+Net 68 "/pd3" "pd3"
+ U1 117
+ P2 20
+Net 69 "/pg11" "pg11"
+ P4 12
+ U1 126
+Net 70 "/sd_cmd" "sd_cmd"
+ U1 116
+ P8 2
+ P2 19
+Net 71 "/pb5" "pb5"
+ P1 22
+ U1 135
+Net 72 "/swdio" "swdio"
+ U1 105
+ P1 14
+ P4 30
+Net 73 "/pb4" "pb4"
+ P1 21
+ U1 134
+Net 74 "/pb14" "pb14"
+ U1 75
+ P1 31
+Net 75 "/pc6" "pc6"
+ U1 96
+ P2 7
+Net 76 "/pb15" "pb15"
+ P1 32
+ U1 76
+Net 77 "/pb0" "pb0"
+ P1 17
+ U1 46
+Net 78 "/pa2" "pa2"
+ U1 36
+ P1 3
+Net 79 "/pc0" "pc0"
+ P2 1
+ U1 26
+Net 80 "/pc1" "pc1"
+ U1 27
+ P2 2
+Net 81 "/pc5" "pc5"
+ P2 6
+ U1 45
+Net 82 "/pa1" "pa1"
+ U1 35
+ P1 2
+Net 83 "/pb13" "pb13"
+ U1 74
+ P1 30
+Net 84 "/pc4" "pc4"
+ P2 5
+ U1 44
+Net 85 "/pc2" "pc2"
+ P2 3
+ U1 28
+Net 86 "/pf11" "pf11"
+ U1 49
+ P3 28
+Net 87 "/pc3" "pc3"
+ P2 4
+ U1 29
+Net 88 "/pf7" "pf7"
+ P3 24
+ U1 19
+Net 89 "/sd_d0" "sd_d0"
+ P2 9
+ U1 98
+ P8 7
+Net 90 "/pb2" "pb2"
+ U1 48
+ P1 19
+Net 91 "/pf6" "pf6"
+ P3 23
+ U1 18
+Net 92 "/pc7" "pc7"
+ P2 8
+ U1 97
+Net 93 "/pb1" "pb1"
+ P1 18
+ U1 47
+Net 94 "/pa3" "pa3"
+ U1 37
+ P1 4
+Net 95 "/sram_a10" "sram_a10"
+ U1 56
+ U2 6
+ P4 1
+Net 96 "/sram_a1" "sram_a1"
+ U1 11
+ P3 18
+ U2 24
+Net 97 "/sram_a2" "sram_a2"
+ U2 23
+ P3 19
+ U1 12
+Net 98 "/sram_a3" "sram_a3"
+ U1 13
+ P3 20
+ U2 22
+Net 99 "/sram_a4" "sram_a4"
+ P3 21
+ U1 14
+ U2 21
+Net 100 "/sram_a5" "sram_a5"
+ U2 20
+ U1 15
+ P3 22
+Net 101 "/sram_a6" "sram_a6"
+ U1 50
+ P3 29
+ U2 19
+Net 102 "/sram_a7" "sram_a7"
+ P3 30
+ U2 18
+ U1 53
+Net 103 "/sram_a8" "sram_a8"
+ U2 8
+ P3 31
+ U1 54
+Net 104 "/sram_a9" "sram_a9"
+ U2 7
+ P3 32
+ U1 55
+Net 105 "/sram_a0" "sram_a0"
+ U2 25
+ U1 10
+ P3 17
+Net 106 "/sram_a11" "sram_a11"
+ U2 5
+ U1 57
+ P4 2
+Net 107 "/sram_a12" "sram_a12"
+ U1 87
+ P4 3
+ U2 4
+Net 108 "/sram_a13" "sram_a13"
+ U2 3
+ U1 88
+ P4 4
+Net 109 "/sram_a14" "sram_a14"
+ P4 5
+ U1 89
+ U2 2
+Net 110 "/sram_a15" "sram_a15"
+ U1 90
+ U2 1
+ P4 6
+Net 111 "/sram_d10" "sram_d10"
+ P3 14
+ U1 66
+ U2 34
+Net 112 "/sram_d4" "sram_d4"
+ P3 8
+ U2 38
+ U1 58
+Net 113 "/sram_d5" "sram_d5"
+ U2 40
+ P3 9
+ U1 59
+Net 114 "/sram_d6" "sram_d6"
+ U2 42
+ U1 60
+ P3 10
+Net 115 "/sram_d7" "sram_d7"
+ U1 63
+ U2 44
+ P3 11
+Net 116 "/sram_d8" "sram_d8"
+ P3 12
+ U1 64
+ U2 30
+Net 117 "/sram_d9" "sram_d9"
+ U2 32
+ U1 65
+ P3 13
+Net 118 "/sram_d11" "sram_d11"
+ P3 15
+ U1 67
+ U2 36
+Net 119 "/sram_d12" "sram_d12"
+ U2 39
+ P3 16
+ U1 68
+Net 121 "" ""
+ R1 2
+ D1 1
+Net 122 "/nrst" "nrst"
+ U1 25
+ P4 31
+ B1 1
+ B1 2
+ C29 1
+Net 123 "" ""
+ D2 1
+ R2 2
+Net 124 "/osc_in" "osc_in"
+ C3 1
+ X1 2
+ U1 23
+Net 125 "GND" "GND"
+ C16 1
+ C17 1
+ C19 1
+ C18 1
+ U1 94
+ U1 83
+ U1 16
+ P7 5
+ U1 38
+ U1 120
+ U1 130
+ U2 46
+ U2 27
+ U1 31
+ U1 51
+ L1 1
+ U1 61
+ C8 1
+ U1 107
+ P4 29
+ P6 3
+ P4 18
+ P4 17
+ P4 26
+ P4 25
+ U1 138
+ C29 2
+ C25 2
+ C26 2
+ P8 3
+ P8 12
+ P8 6
+ C23 2
+ C28 2
+ D2 2
+ U6 2
+ C2 2
+ C1 2
+ C21 1
+ C9 1
+ C22 2
+ C11 1
+ C24 2
+ C10 1
+ C14 1
+ C13 1
+ C12 1
+ C3 2
+ B1 3
+ B1 4
+ C20 2
+ C15 1
+ C27 2
+ D1 2
+ C30 2
+ C4 2
+Net 126 "/3V3_adc" "3V3_adc"
+ C27 1
+ L2 2
+ C25 1
+ C26 1
+ C28 1
+ U1 33
+ U1 32
+Net 127 "/osc_out" "osc_out"
+ C20 1
+ X1 1
+ U1 24
+Net 128 "" ""
+ C24 1
+ U1 106
+}
+#End
