@@ -4,20 +4,17 @@ The board is designed around the STM32F40X ARM Cortex M4 microcontroller in
 LQFP-144 package. This package has full support for the built-in external
 memory controller (FSMC).
 
-Provision is provided for up to 4 SRAM modules, giving up to 16MByte of
-external SRAM. Any number of the SRAM modules can be fitted or not, as
-desired.
+Provision is provided for one SRAM module.
 
 The SRAM chip used is Cypress CY621X7. This chip exists in three different
 pin-compatible sizes, which allows flexibility between available memory and
 component costs:
 
-  CY62157EV30    0.5M x 16  (1 MByte / IC)
-  CY62167EV30      1M x 16  (2 MByte / IC)
-  CY62177EV30      2M x 16  (4 MByte / IC)
+  CY62157EV30    0.5M x 16  (1 MByte / IC)   Approx. cost $9
+  CY62167EV30      1M x 16  (2 MByte / IC)   Approx. cost $18
+  CY62177EV30      2M x 16  (4 MByte / IC)   Approx. cost $47
 
-(The cost for provisioning the full 16MByte with 4 x CY62177EV30 is around
-$185. A single CY62157EV30 (1MByte) is around $10).
+Thus, up to 4MByte of external SRAM is supported.
 
 A micro-SD card slot is also provided, connected to allow 4-bit 25MHz
 operation (total of 100MBit data transfer max).
@@ -31,6 +28,5 @@ dedicated to PA0-15, PB0-15, ..., PG0-15. The final row is dedicated to
 exposed GND/3.3V/5V pins and 6 pins for ST-LINK V2 / SWD programming (for
 programming eg. with STM32F4 Discovery board in external programmer mode).
 
-
-ToDo: The idea is to lay out the board as 4-sided, around 10x10 cm or smaller,
-and order it from SeeedStudio.
+The board is layed out as four-sided, for ordering @ SeeedStudio. The
+gerbers submitted to Seeed are in pcb_sram_rev1.zip.
